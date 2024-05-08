@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto mt-8">
+      <form action="/send-email" method="post">
+        <input type="text" name="subject" placeholder="Subject" class="border rounded p-2 m-2">
+       <textarea name="body" placeholder="Email Body" class="border rounded p-2 m-2"></textarea>
+       <input type="submit" value="Send Email" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+     </form>
+   </div>
+ </body>
+</html>
